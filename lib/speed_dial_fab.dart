@@ -93,7 +93,7 @@ class SpeedDialFabWidgetState extends State<SpeedDialFabWidget>
       mainAxisSize: MainAxisSize.min,
       children: List.generate(widget.secondaryIconsList.length, (int index) {
         Widget secondaryFAB = Container(
-          height: 58.0,
+          height: 56.0,
           width: 56.0,
           alignment: FractionalOffset.topCenter,
           child: ScaleTransition(
@@ -132,7 +132,7 @@ class SpeedDialFabWidgetState extends State<SpeedDialFabWidget>
                         widget.secondaryForegroundColor ?? Colors.black,
                     color: widget.secondaryBackgroundColor ?? Colors.white,
                     child: Padding(
-                      padding: EdgeInsets.all(9),
+                      padding: EdgeInsets.all(2),
                       child: Text(
                         (widget.secondaryIconsText != null)
                             ? widget.secondaryIconsText![index]
@@ -141,8 +141,8 @@ class SpeedDialFabWidgetState extends State<SpeedDialFabWidget>
                           color:
                               widget.secondaryForegroundColor ?? Colors.black,
                           fontWeight: FontWeight.w900,
-                          fontSize: 15,
-                          letterSpacing: 0.3,
+                          fontSize: 12,
+                          letterSpacing: 0.2,
                         ),
                       ),
                     ),
