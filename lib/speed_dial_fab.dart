@@ -93,7 +93,7 @@ class SpeedDialFabWidgetState extends State<SpeedDialFabWidget>
       mainAxisSize: MainAxisSize.min,
       children: List.generate(widget.secondaryIconsList.length, (int index) {
         Widget secondaryFAB = Container(
-          height: 70.0,
+          height: 58.0,
           width: 56.0,
           alignment: FractionalOffset.topCenter,
           child: ScaleTransition(
