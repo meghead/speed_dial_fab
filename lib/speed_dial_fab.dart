@@ -136,7 +136,7 @@ class SpeedDialFabWidgetState extends State<SpeedDialFabWidget>
                       child: Text(
                         (widget.secondaryIconsText != null)
                             ? widget.secondaryIconsText![index]
-                            : "",
+                            : "wow!",
                         style: TextStyle(
                           color:
                               widget.secondaryForegroundColor ?? Colors.black,
