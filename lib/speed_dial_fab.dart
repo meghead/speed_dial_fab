@@ -93,8 +93,8 @@ class SpeedDialFabWidgetState extends State<SpeedDialFabWidget>
       mainAxisSize: MainAxisSize.min,
       children: List.generate(widget.secondaryIconsList.length, (int index) {
         Widget secondaryFAB = Container(
-          height: 56.0,
-          width: 56.0,
+          height: 50.0,
+          width: 50.0,
           alignment: FractionalOffset.topCenter,
           child: ScaleTransition(
             scale: CurvedAnimation(
@@ -141,7 +141,7 @@ class SpeedDialFabWidgetState extends State<SpeedDialFabWidget>
                           color:
                               widget.secondaryForegroundColor ?? Colors.black,
                           fontWeight: FontWeight.w900,
-                          fontSize: 12,
+                          fontSize: 10,
                           letterSpacing: 0.2,
                         ),
                       ),
